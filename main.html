@@ -32,7 +32,7 @@
 				 </div>
 				<div class="col-md-4">
 				    <label for="grad-year-select" class="form-label" required >Graduation Year</label>
-						<select  class="form-select">
+						<select  class="form-select" id="grad-year-select">
 						      <option selected>Choose...</option>
 						      <option>2020</option>
 							  <option>2021</option>
@@ -41,8 +41,8 @@
 					    </select>
 				</div>
 				<div class="col-sm-4">
-					<label for="roll-no-input" class="form-label">Roll No/label>
-				    <input type="number" class="form-control" id="roll-no-input" required>
+					<label for="roll-no-input" class="form-label">Roll No</label>
+				    <input type="text" class="form-control" id="roll-no-input" required>
 				</div>
 			</div>
 		<div class="col-12">
@@ -52,6 +52,12 @@
 		       Agree to terms and conditions
 		      </label>
 		    </div>
+				<div class="invalid-feedback">
+		        You must agree before submitting.
+		      </div>
+		  </div>
+			<div class="col-12">
+			    <button class="btn btn-primary" type="submit">Submit form</button>
 		  </div>
 		</form>
 	</div>
