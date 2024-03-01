@@ -14,24 +14,24 @@
 			<div class="row g-3">
 				<div class="col-sm-4">
 					 <label for="first-name-input" class="form-label">First Name</label>
-				    <input type="text" class="form-control" id="first-name-input">
+				    <input type="text" class="form-control" id="first-name-input" required>
 				 </div>
 				<div class="col-sm-4">
 					 <label for="last-name-input" class="form-label">Last Name</label>
-				    <input type="text" class="form-control" id="last-name-input">
+				    <input type="text" class="form-control" id="last-name-input" required>
 				 </div>
 				<div class="col-sm-4">
 					 <label for="email-input" class="form-label">Email</label>
-				    <input type="email" class="form-control" id="email-input">
+				    <input type="email" class="form-control" id="email-input" required>
 				 </div>
 			</div>
 			<div class="row g-3">
 				<div class="col-sm-4">
 					<label for="college-input" class="form-label">Collage</label>
-				    <input type="email" class="form-control" id="college-input">
+				    <input type="text" class="form-control" id="college-input" required>
 				 </div>
 				<div class="col-md-4">
-				    <label  class="form-label">Graduation Year</label>
+				    <label for="grad-year-select" class="form-label" required >Graduation Year</label>
 						<select  class="form-select">
 						      <option selected>Choose...</option>
 						      <option>2020</option>
@@ -41,18 +41,18 @@
 					    </select>
 				</div>
 				<div class="col-sm-4">
-					<label for="roll-no-input" class="form-label">Collage</label>
-				    <input type="number" class="form-control" id="roll-no-input">
+					<label for="roll-no-input" class="form-label">Roll No/label>
+				    <input type="number" class="form-control" id="roll-no-input" required>
 				</div>
 			</div>
-			<div class="col-12">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="conditions-checkbox">
-      <label class="form-check-label" for="conditions-checkbox">
-       Agree to terms and conditions
-      </label>
-    </div>
-  </div>
+		<div class="col-12">
+		    <div class="form-check">
+		      <input class="form-check-input" type="checkbox" id="conditions-checkbox" required>
+		      <label class="form-check-label" for="conditions-checkbox">
+		       Agree to terms and conditions
+		      </label>
+		    </div>
+		  </div>
 		</form>
 	</div>
     <script type="text/javascript" src="./script.js">
